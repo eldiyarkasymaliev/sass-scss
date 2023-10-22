@@ -1,0 +1,64 @@
+@import "./vars.scss";
+.header {
+  max-width: 1240px;
+  height: 720px;
+  background: url(https://s3-alpha-sig.figma.com/img/6404/f1c2/4f8273c03b669d7a2a20c6874dd7a19e?Expires=1697414400&Signature=mUP~zp5vLaVO-gJ0rHpa06bNfKWAcQz6eCxKC0YyGSmZ6n5o2qLaUAKyNy~9mTsNCkz1yrpDI3YY4GztzODNqSjONOxmKn5ymXoyCv2v9Rl8Nh7XwRPHlQVFPI0fTN-UJJMehmBZAKYcBeQYn2Wb6dc4TjZ4rX4fnXZn2CaV2TFO9d6BRjtgzmCJwReWBygZBdHgdTEpyWINqzMjiVaWlLhrHMnK1y-vXe81gVJQ7eFmJMloMiG-yicoHwF6fWYF51dVY9f-OeE3sEOUGkVo~VX047xIMWj-9JkWWC6CLr0inD1S4AGnntuij29-7bGOWf6p~1GojrtDRLw3TinaJA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4)
+    center / cover;
+  padding: 15px 0;
+
+  &__content {
+    max-width: 950px;
+    height: 140px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 0 auto;
+
+    &__logo {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+
+      &-land {
+        text-decoration: none;
+        color: #fff;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+
+      &-ing {
+        text-decoration: none;
+        color: #ffc80a;
+        font-size: 35px;
+        font-style: italic;
+        font-weight: 900;
+        line-height: normal;
+      }
+    }
+    &__nav {
+      display: flex;
+      text-decoration: none;
+      gap: 40px;
+      transition: 0.3s;
+
+      &-link {
+        text-decoration: none;
+        color: #fff;
+
+        &:hover {
+          color: $green;
+        }
+      }
+    }
+    &__icon {
+      width: 16px;
+      height: 16px;
+    }
+  }
+}
+
+.header-logo {
+  color: $yellow;
+}

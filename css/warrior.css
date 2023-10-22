@@ -1,0 +1,41 @@
+.warrior {
+  max-width: 1140px;
+  max-height: 100%;
+  margin: 0 0;
+}
+.warrior__title {
+  max-width: 950px;
+  max-height: 100%;
+  display: flex;
+  margin: 0 auto;
+}
+.warrior__title__text {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.warrior__title__text-the {
+  display: flex;
+  margin: 0;
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.8px;
+}
+.warrior__title__text-arrows {
+  margin: 0;
+  color: #fff;
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100px;
+}
+.warrior__title__text-learnmore {
+  padding: 0;
+  width: 170px;
+  height: 50px;
+  border-radius: 49.5px;
+  background: #ffc80a;
+}/*# sourceMappingURL=warrior.css.map */

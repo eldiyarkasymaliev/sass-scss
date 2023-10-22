@@ -1,0 +1,60 @@
+@import "./components/warrior.scss";
+@import "./components/mixins.scss";
+@import "./components/normalize.scss";
+@import "./components/vars.scss";
+@import "./components/header.scss";
+@import "./components/footer.scss";
+@import "./components/hero.scss";
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 1240px;
+  max-height: 100%;
+  margin: 0 auto;
+}
+
+.table_blog {
+  max-width: 1240px;
+  max-height: 1240px;
+}
+
+@media screen and (max-width: 650px) {
+  .header__content__nav {
+    font-size: 5px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .header__content__nav {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .warrior__title__text-arrows {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .footer__title {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .footer__hats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .footer__hats__cards-site {
+    font-size: 5px;
+  }
+}

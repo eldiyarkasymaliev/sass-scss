@@ -1,0 +1,123 @@
+.footer {
+  max-width: 1240px;
+  height: 550px;
+  background: #2c2c2c;
+  margin: 0 auto;
+  padding: 0;
+}
+.footer__title {
+  max-width: 1100px;
+  height: 380px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__title__card {
+  max-width: 200px;
+  height: 130px;
+}
+.footer__title__card-inscription {
+  margin: 0;
+  padding: 0 0 20px;
+  color: #fff;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.4px;
+}
+.footer__title__card-text {
+  text-decoration: none;
+  color: #9fa3a7;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  transition: 0.5s;
+}
+.footer__title__card-text:hover {
+  color: rgb(249, 249, 4);
+}
+.footer__title__card-images {
+  display: flex;
+  gap: 40px;
+}
+.footer__hats {
+  display: flex;
+  max-width: 1100px;
+  height: 100%;
+  margin: 0 auto;
+}
+.footer__hats__cards {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+  height: 100px;
+  margin: 0;
+  gap: 110px;
+}
+.footer__hats__cards__logo {
+  display: flex;
+  max-width: 200px;
+  height: 100%;
+  margin: 0;
+}
+.footer__hats__cards__logo-land {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  color: #fff;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.footer__hats__cards__logo-ing {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  color: #ffc80a;
+  font-size: 29px;
+  font-style: italic;
+  font-weight: 900;
+  line-height: normal;
+}
+.footer__hats__cards-site {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.4px;
+  transition: 0.3s;
+}
+.footer__hats__cards-site:hover {
+  color: greenyellow;
+}
+.footer-textspan {
+  display: flex;
+  justify-content: center;
+  color: rgba(200, 200, 200, 0.5);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+.footer-hr {
+  width: 1240px;
+  height: 2px;
+  stroke-width: 1px;
+  stroke: #fff;
+  opacity: 0.1;
+}
+
+.footer_list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}/*# sourceMappingURL=footer.css.map */
